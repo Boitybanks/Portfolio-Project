@@ -96,3 +96,29 @@ p {
     text-align: center;
   }
 }
+a {
+  text-decoration: none;
+}
+
+.about-me-paragraph {
+  display: flex;
+  gap: 1rem;
+}
+  
+
+.paragraph {
+  flex: 1;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  padding: 30px 15px;
+  margin: 10px 15px;
+  text-align: left;
+  flex: 1;
+}
+.email {
+  margin-top: 15px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
