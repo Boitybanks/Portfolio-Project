@@ -1,27 +1,75 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  background-color: #f4f4f4;
+:root {
+  --shadow-box: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --primary-color: #7b5cff;
+  --secondary-color: #f0eaff;
+}
+
+* {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  margin-top: 40px;
-  text-align: center;
-  font-family: "Playfair Display", serif;
-}
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
 }
 
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 15px;
+}
+
+.details {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.detail-1 {
+  border: 1px solid var(--primary-color);
+  padding: 30px;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  box-shadow: var(--shadow-box);
+  color: white;
+}
+
+.detail-2 {
+  border: 1px solid var(--primary-color);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: var(--shadow-box);
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-me-paragraph {
+  display: flex;
+  gap: 1rem;
+}
+  
+
+.paragraph {
+  flex: 1;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  padding: 30px 15px;
+  margin: 10px 15px;
+  text-align: left;
+  flex: 1;
+}
+.email {
+  margin-top: 15px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
