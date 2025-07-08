@@ -99,6 +99,9 @@ p {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: var(--branding-color);
+}
 
 .about-me-paragraph {
   display: flex;
