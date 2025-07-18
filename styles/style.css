@@ -46,7 +46,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 150px 10px;
 }
 
 .hero p {
@@ -196,4 +196,20 @@ footer .contact-box {
 footer .btn {
   margin-top: 15px;
   margin-right: 30px;
+}
+.nav-link {
+  color: #000 !important;
+}
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+.social-media-list a {
+ color: var(--branding-color);
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s;
 }
