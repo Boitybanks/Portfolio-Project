@@ -151,3 +151,16 @@ ul {
   background: #f9f7fe !important;
   padding: 10px 0;
 }
+footer .email-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+.social-links {
+  display: flex;
+  gap: 10px;
+}
