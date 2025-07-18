@@ -151,6 +151,9 @@ ul {
   background: #f9f7fe !important;
   padding: 10px 0;
 }
+footer {
+  margin: 60px 0;
+}
 footer .email-link {
   text-decoration: none;
   color: #000;
@@ -160,7 +163,23 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
-.social-links {
+footer .social-icons {
+  color: var(--branding-color);
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+footer .social-icons a {
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  margin: 0 20px;
+  font-size: 18px;
+  padding: 14px 19px;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+footer .social-icons a:hover {
+  background-color: var(--branding-color);
+  color: white;
 }
